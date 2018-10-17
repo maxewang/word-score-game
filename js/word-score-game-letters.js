@@ -5,6 +5,7 @@ function Letter(letter, numberOfStartingTiles, pointsWhenLettersUsed) {
     this.tilesUsed = 0;
     this.used = false;
 
+    
     this.remainingTiles = function () {
     	if((this.numberOfStartingTiles - this.tilesUsed) > 0){
     		return (this.numberOfStartingTiles - this.tilesUsed);
